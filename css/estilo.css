@@ -1,13 +1,6 @@
-     h1
-    {
-        color: rgb(19, 24, 15);
-        font-size: 26px;   
-        text-align: center;
-        background-color: #333;
-        color: #fff;
 
 
-    }
+
     /*  header { 
         background-color: #333;
         color: #fff;
@@ -16,16 +9,17 @@
     }
     */
     body {
-        font-family: Arial, sans-serif;
+        font-size: large;
+        font-style: italic;
+        font-family: 'Roboto', Arial, sans-serif;      
         margin: 0;
         padding: 0;
     }
     #bloques { text-align: center;
         color: rgb(103, 108, 173)}
 
-    #encabezado {
-        padding: 10px;
-        text-align: left;}
+
+
     #h2-div {text-align: center;
         background-color: #0e0d0d;
         color: #c0b5b5;
