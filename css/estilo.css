@@ -43,15 +43,33 @@
         padding: 10px;
         text-align: center;}
     
-    #parrafo-contacto {text-align: center;
-        background-color: #684f0a;
-        color: #e9e6e6;
-        padding: 10px;
-        text-align: center;}
-    
+   
     #header-contacto {text-align: center;
         background-color: #1b0770;
         color: #d8d0d0;
         padding: 10px;
         text-align: center;}
     /* p {text-align: left;} */
+
+    #parrafo-contacto {
+        background-color: #E1306C;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        display: inline-block;
+        
+    }
+    
+    #parrafo-contacto span {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    
+    #parrafo-contacto img {
+        width: 40px;
+        height: 40px;
+        vertical-align: middle;
+        
+
+    }
+    
