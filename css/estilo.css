@@ -42,4 +42,16 @@
         color: #c0b5b5;
         padding: 10px;
         text-align: center;}
+    
+    #parrafo-contacto {text-align: center;
+        background-color: #684f0a;
+        color: #e9e6e6;
+        padding: 10px;
+        text-align: center;}
+    
+    #header-contacto {text-align: center;
+        background-color: #1b0770;
+        color: #d8d0d0;
+        padding: 10px;
+        text-align: center;}
     /* p {text-align: left;} */
