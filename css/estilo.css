@@ -35,7 +35,7 @@ section {
     margin-bottom: 20px;
 }
 
-#enlaces, #informacion, #clases-grabadas, #contacto {
+#enlaces, #informacion, #clases-grabadas, #contacto, #documentacion-de-estacionamiento, #modelo-py, #metodos, #vista-py, #id1, #controlador-py, #interfaz-grafica {
     text-align: center;
     background-color: #f5f5f5;
     color: #333;
@@ -43,7 +43,7 @@ section {
     border-radius: 10px;
 }
 
-#enlaces h2, #informacion h2, #clases-grabadas h2, #contacto h2 {
+#enlaces h2, #informacion h2, #clases-grabadas h2, #contacto h2, #documentacion-de-estacionamiento h1 {
     background-color: #0e0d0d;
     color: #c0b5b5;
     padding: 10px;
@@ -68,3 +68,13 @@ section {
     height: 40px;
     vertical-align: middle;
 }
+.admonition-title {
+    color: #007bff; /* Cambia el color del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    font-weight: bold; /* Añade negrita */
+}
+
+.admonition-title:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón por encima */
+}
+

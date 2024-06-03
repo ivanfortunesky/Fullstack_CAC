@@ -25,10 +25,8 @@
     <main>
         <!-- Sección 1: Enlaces -->
         <section id="enlaces">
-            <h2>Enlaces</h2>
-            <p>Estiqueas <a href="#">Enlace 1</a></p>
-            <p><a href="#">Enlace 2</a></p>
-            <p><a href="#">Enlace 3</a></p>
+            <h2>Enlace</h2>
+            <p><a href="#">Acá iria un link a otro sitio</a></p>
         </section>
 
         <!-- Sección 2: Información del Proyecto -->
@@ -41,7 +39,7 @@
 
         <!-- Sección 3: Clases Grabadas -->
         <section id="clases-grabadas">
-            <h2>Link al Drive con las clases grabadas</h2>
+            <h2>Link al Drive con las clases grabadas dela facu</h2>
             <img src="img/AyED2024ASIF00194.JPG" alt="UNICABA" width="400" height="100">
             <p><a href="https://www.youtube.com/watch?v=AzDDtqA4P94" target="_blank">Clase 01 14/3</a><br></p>
         </section>
@@ -56,6 +54,57 @@
                 <img src="img/instagram.jpg" alt="@ivanfortunesky">
             </p>
         </section>
+
+        <!-- Sección 5: App estacionamiento -->
+        <section id="documentacion-de-estacionamiento">
+            <h1>Documentación de Estacionamiento<a class="headerlink" href="#documentacion-de-estacionamiento" title="Link to this heading">¶</a></h1>
+            <p><strong>Estacionamiento</strong> es una aplicación para gestionar el estacionamiento de vehículos, permitiendo agregar, modificar, eliminar y consultar registros de estacionamiento.</p>
+            <p>La aplicación está estructurada utilizando el patrón MVC (Modelo-Vista-Controlador).</p>
+            <div class="admonition note">
+                <a href="https://github.com/ivanfortunesky/estacionamiento.git" target="_blank" class="admonition-title">Ver en GitHub</a>
+            <p>Proyecto en construcción, correspondiente a la diplomatura de Python en la UTN 2024.</p>
+            </div>
+            </section>
+            <section id="modelo-py">
+            <h1>Modelo.py<a class="headerlink" href="#modelo-py" title="Link to this heading">¶</a></h1>
+            <p>El módulo <cite>Modelo</cite> proporciona la clase <cite>Modelo</cite> para gestionar los registros de estacionamiento en una base de datos SQLite.</p>
+            <section id="metodos">
+            <h2>Métodos<a class="headerlink" href="#metodos" title="Link to this heading">¶</a></h2>
+            <ul class="simple">
+            <li><p><code class="docutils literal notranslate"><span class="pre">__init__</span></code>: Inicializa el objeto <cite>Modelo</cite> y crea la conexión con la base de datos.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">conectar</span></code>: Establece una conexión con la base de datos SQLite.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">crear_tabla</span></code>: Crea una tabla en la base de datos si no existe.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">modificar</span></code>: Modifica un registro de una cochera en la base de datos.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">insertar_registro</span></code>: Inserta un nuevo registro de estacionamiento en la base de datos.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">consultar</span></code>: Recupera y muestra datos de la base de datos en el TreeView.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">borrar</span></code>: Elimina un registro de estacionamiento de la base de datos.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">validar_nombre</span></code>: Valida que el nombre y apellido ingresado sea alfanumérico.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">validar_telefono</span></code>: Valida que el teléfono ingresado contenga solo dígitos.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">validar_patente</span></code>: Valida que la patente ingresada esté en el formato correcto.</p></li>
+            </ul>
+            </section>
+            </section>
+            <section id="vista-py">
+            <h1>Vista.py<a class="headerlink" href="#vista-py" title="Link to this heading">¶</a></h1>
+            <p>El módulo <cite>Vista</cite> define la interfaz gráfica de usuario de la aplicación de estacionamiento utilizando <cite>tkinter</cite>.</p>
+            <section id="id1">
+            <h2>Métodos<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+            <ul class="simple">
+            <li><p><code class="docutils literal notranslate"><span class="pre">__init__</span></code>: Inicializa la interfaz gráfica de la aplicación.</p></li>
+            <li><p><code class="docutils literal notranslate"><span class="pre">actualizar</span></code>: Actualiza los campos de entrada con la selección actual del TreeView.</p></li>
+            </ul>
+            </section>
+            </section>
+            <section id="controlador-py">
+            <h1>Controlador.py<a class="headerlink" href="#controlador-py" title="Link to this heading">¶</a></h1>
+            <p>El módulo <cite>Controlador</cite> inicializa la aplicación de estacionamiento y gestiona la interacción entre la vista y el modelo.</p>
+            </section>
+            <section id="interfaz-grafica">
+            <h1>Interfaz gráfica<a class="headerlink" href="#interfaz-grafica" title="Link to this heading">¶</a></h1>
+            <a class="reference internal image-reference" href="img/interfazgraficaestacionamiento.png"><img alt="img/interfazgraficaestacionamiento.png" src="img/interfazgraficaestacionamiento.png" style="width: 900px; height: 300px;" />
+            </a>
+            </section>
+        
     </main>
 </body>
 </html>
