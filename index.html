@@ -10,42 +10,52 @@
 <body>
     <!-- Encabezado -->
     <header>
-        <table>
-            <tr>
-                <td><img src="img/logo.jpg" alt="Codo a Codo" height="160" width="180"></td>
-                <td><h1>Proyecto Fullstack</h1></td>
-                <td><p>F12 <br>Click en Elements<br>A la derecha en solapa "Styles" vá mostrando el html y el estilo que matchea<br>
-                        Solapa "Sources"<br>Muestra la jerarquía de carpteas y fuentes.</p></td>
-            </tr>
-        </table>
+        <img src="img/logo.jpg" alt="Codo a Codo" height="160" width="180">
+        <h1>Proyecto Fullstack</h1>
+        <p>
+            F12 <br>
+            Click en Elements<br>
+            A la derecha en solapa "Styles" va mostrando el html y el estilo que matchea<br>
+            Solapa "Sources"<br>
+            Muestra la jerarquía de carpetas y fuentes.
+        </p>
     </header>
 
-    <!-- Contenido -->
+    <!-- Contenido principal -->
     <main>
-        <div id="bloques">
-            <h2 id="h2-div">Estoy llenando los DIV de abajo</h2>
-            <p>Abajo de este texto (Etiqwueta p) está el href= e img src</p>
+        <!-- Sección 1: Enlaces -->
+        <section id="enlaces">
+            <h2>Enlaces</h2>
+            <p>Estiqueas <a href="#">Enlace 1</a></p>
+            <p><a href="#">Enlace 2</a></p>
+            <p><a href="#">Enlace 3</a></p>
+        </section>
+
+        <!-- Sección 2: Información del Proyecto -->
+        <section id="informacion">
+            <h2>Información del Proyecto</h2>
+            <p>Abajo de este texto (Etiqueta p) está el href= e img src</p>
             <a href="https://naturally-fresh.web.app" target="_blank">Ir a naturally-fresh</a><br>
             <img src="https://naturally-fresh.web.app/images/wraps/1.jpg" alt="wraps" width="300" height="250">
-        </div>
+        </section>
 
-        <div id="bloque2">
-            <h2 id="h2-div_2">Link al Drive con las clases grabadas</h2>
+        <!-- Sección 3: Clases Grabadas -->
+        <section id="clases-grabadas">
+            <h2>Link al Drive con las clases grabadas</h2>
             <img src="img/AyED2024ASIF00194.JPG" alt="UNICABA" width="400" height="100">
             <p><a href="https://www.youtube.com/watch?v=AzDDtqA4P94" target="_blank">Clase 01 14/3</a><br></p>
-        </div>
+        </section>
 
-        
-        <div id="enlace-enlaces">
-                <p>Este link me lleva al archivo enlaces.html dentro del mismo sitio</p>
-                <a href="enlaces.html">enlaces.html</a>
-        </div>
-       
-        <div id="enlace-contactos">
-                <p>Este link me lleva al archivo contactos.html dentro del mismo sitio</p>
-                <a href="contactos.html">contactos.html</a>
-        </div>
-   
+        <!-- Sección 4: Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p id="parrafo-contacto">
+                <a href="https://www.instagram.com/ivanfortunesky" target="_blank">
+                    <span>@ivanfortunesky</span>
+                </a>
+                <img src="img/instagram.jpg" alt="@ivanfortunesky">
+            </p>
+        </section>
     </main>
 </body>
 </html>
